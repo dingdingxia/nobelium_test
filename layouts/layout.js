@@ -42,7 +42,7 @@ const Layout = ({
                   alt={BLOG.author}
                   width={24}
                   height={24}
-                  src="/public/favicon.svg"
+                  src="https://raw.githubusercontent.com/dingdingxia/nobelium_test/730bd6b4e4df50459f14431b855a931cc4276621/public/favicon.svg"
                   className="rounded-full"
                 />
                 <p className="ml-2 md:block">{BLOG.author}</p>
