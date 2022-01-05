@@ -5,12 +5,14 @@
   overflow-wrap: break-word;
 }
 .notion,
-.notion-text,
 .notion-quote,
 .notion-h-title {
   @apply leading-8;
   @apply p-0;
   @apply my-3;
+}
+.notion-text {
+  line-height: 1.5rem;
 }
 .notion-page-link {
   color: inherit;
