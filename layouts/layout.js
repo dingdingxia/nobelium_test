@@ -7,7 +7,6 @@ import formatDate from '@/lib/formatDate'
 import { useLocale } from '@/lib/locale'
 import { useRouter } from 'next/router'
 import Comments from '@/components/Comments'
-//import mediumZoom from 'medium-zoom'
 
 const mapPageUrl = id => {
   return 'https://www.notion.so/' + id.replace(/-/g, '')
