@@ -74,7 +74,7 @@ body::-webkit-scrollbar-thumb {
   top: -1px;
   backdrop-filter: blur(0px);
   transition: all 0.5s cubic-bezier(0.4, 0, 0, 1);
-  border-bottom-color: rgb(255,255,255);
+  border-bottom-color: rgb(220,38,38);
   opacity: 1;
 }
 
