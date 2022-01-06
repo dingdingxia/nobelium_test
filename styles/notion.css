@@ -13,6 +13,7 @@
 }
 .notion-text {
   line-height: 1.5rem;
+  font-size: 0.875rem;
 }
 .notion-page-link {
   color: inherit;
