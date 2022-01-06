@@ -87,7 +87,7 @@ body::-webkit-scrollbar-thumb {
 
 .header-name {
   display: none;
-  opacity: 0;
+  opacity: 1;
   overflow: hidden;
 }
 
@@ -124,7 +124,7 @@ nav {
   }
   .header-name {
     display: block;
-    opacity: 0;
+    opacity: 1;
     transition: all 0.5s cubic-bezier(0.4, 0, 0, 1);
   }
   .sticky-nav-full .header-name {
@@ -136,7 +136,7 @@ nav {
 @supports not (backdrop-filter: none) {
   .sticky-nav {
     backdrop-filter: none;
-    @apply bg-day bg-opacity-100 dark:bg-night dark:bg-opacity-100;
+    @apply bg-day bg-opacity-0 dark:bg-night dark:bg-opacity-0;
   }
 }
 
