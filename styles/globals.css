@@ -82,7 +82,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .sticky-nav-full {
-  @apply border-b border-opacity-100 border-red-200 dark:border-red-600 dark:border-opacity-100;
+  @apply border-b border-opacity-0 border-gray-200 dark:border-red-600 dark:border-opacity-0;
 }
 
 .header-name {
@@ -120,7 +120,7 @@ nav {
 
 @media (min-width: 768px) {
   .sticky-nav-full {
-    @apply max-w-full border-b border-opacity-100 border-gray-200 dark:border-gray-600 dark:border-opacity-100;
+    @apply max-w-full border-b border-opacity-0 border-gray-200 dark:border-gray-600 dark:border-opacity-0;
   }
   .header-name {
     display: block;
