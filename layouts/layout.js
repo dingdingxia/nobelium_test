@@ -21,6 +21,8 @@ const Layout = ({
 }) => {
   const locale = useLocale()
   const router = useRouter()
+  const showTableOfContents = true // add test table of content
+  const minTableOfContentsItems = 3 // add test table of content
   return (
     <Container
       layout="blog"
