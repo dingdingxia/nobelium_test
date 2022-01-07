@@ -3,7 +3,6 @@ import BlogPost from '@/components/BlogPost'
 import Pagination from '@/components/Pagination'
 import { getAllPosts } from '@/lib/notion'
 import BLOG from '@/blog.config'
-import mediumZoom from 'medium-zoom'
 
 
 const Page = ({ postsToShow, page, showNext }) => {
@@ -17,18 +16,6 @@ const Page = ({ postsToShow, page, showNext }) => {
 }
 
 export async function getStaticProps (context) {
-  const images = Array.from(document.querySelectorAll(".notion-asset-wrapper img"));
-    if ($(window).width() >= 991) {
-      images.forEach(img => {
-        mediumZoom(img, {
-          margin: 0, /* The space outside the zoomed image */
-          background: "#fff", /* The background of the overlay */
-          scrollOffset: 40, /* The number of pixels to scroll to close the zoom */
-          container: null, /* The viewport to render the zoom in */
-          template: null /* The template element to display on zoom */
-        });
-      });
-    }
   const { page } = context.params // Get Current Page No.
   const posts = await getAllPosts({ includePages: false })
   const postsToShow = posts.slice(
