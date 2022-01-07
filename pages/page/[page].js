@@ -4,7 +4,6 @@ import Pagination from '@/components/Pagination'
 import { getAllPosts } from '@/lib/notion'
 import BLOG from '@/blog.config'
 
-
 const Page = ({ postsToShow, page, showNext }) => {
   return (
     <Container>
